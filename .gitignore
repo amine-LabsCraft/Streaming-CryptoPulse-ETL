@@ -1,0 +1,35 @@
+# Secrets
+.env
+.env.local
+.env.production
+.env.staging
+
+# Keep the public example
+!.env.example
+
+# Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Tests
+tests/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Logs
+logs/
+*.log
+
+# Editors
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
